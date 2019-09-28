@@ -6,7 +6,7 @@ body { background-color: #ddd; color: #222; position: relative;
 a{ text-decoration: none; }
 ul,li,ol{ list-style-position: inside; }
 
-/*w3-css增加或修改*/
+.source{ font-size: 0.8rem; color: #5308aa; display: block; width: 100%; text-align: center; padding: 5px; }
 
 /*我要報名*/
 .sign{ position: fixed; right: 12px; bottom: 12px; z-index: 10; }
