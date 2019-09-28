@@ -45,7 +45,7 @@ section{ width: 100%; min-height: 100%; margin: 0 auto; }
 #sec2{ background: #952233; color: #fff; }
 #sec2 .w1,#sec2 .w2{ padding: 5px; line-height: 1.8rem; }
 #sec2 .w1{ width: 100%; }
-#sec2 .w2{ width: 100%; }
+#sec2 .w2{ width: 100%; padding-bottom: 30px; }
 .w2img{ float: right; display: none; }
 
 #sec3{ background: #b6b9ad; overflow: hidden; }
