@@ -30,7 +30,7 @@ h1{ font-size: 3rem; text-shadow: 3px 3px 6px #000; text-align: center;
 h2{ font-size: 1.65rem; padding: 50px 0 0; }
 h3{ font-size: 1.3rem; padding-bottom: 10px; }
 
-section{ width: 100%; min-height: 100%; margin: 0 auto; }
+section{ width: 100%; min-height: 100%; margin: 0 auto; overflow: hidden; }
 
 #sec1{ background: url('../img/sec1_bg.jpg') no-repeat center; background-size: cover;
   padding: 0; height: 100%; }
