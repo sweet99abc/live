@@ -10,7 +10,7 @@ $(document).ready(function(){
   };
   setTimeout(function(){ 
     $('#starsBox span').each(function(){  
-      $(this).css('top', Math.random()*100 + '%').css('left', Math.random()*200 + '%'); 
+      $(this).css('top', Math.random()*100 + '%').css('left', Math.random()*100 + '%'); 
     });
   }, 1);
   setInterval(function(){ 
