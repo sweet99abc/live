@@ -37,8 +37,8 @@ section{ width: 100%; min-height: 100%; margin: 0 auto; overflow: hidden; }
 .icon1{ position: absolute; left: 0; top: 64px; max-width: 100px; }
 
 /*星星*/
-#starsBox { position: absolute; top: 0; left: 0; right: 0; bottom: 0; }
-#starsBox span { display: inline-block; width: auto; position: absolute; border-radius: 100%;
+#starsBox { position: absolute; top: 0; left: 0; right: 0; bottom: 0; overflow: hidden; }
+#starsBox span { display: inline-block; width: auto; position: absolute; border-radius: 50%;
   transition: 100s linear; }
 
 #sec2{ background: #952233; color: #fff; }

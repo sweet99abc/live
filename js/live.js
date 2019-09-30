@@ -1,7 +1,7 @@
 $(document).ready(function(){
   new WOW({ mobile: true }).init();
-  // 星星
-  var cols = ['#f5d76e','#f7ca18','#f4d03f','#ececec','#ecf0f1','#a2ded0'];
+  // 星星 '#f5d76e','#f7ca18','#f4d03f','#ececec','#ecf0f1','#a2ded0'
+  var cols = ['#f8efcd','#f7e59e','#f4e5ac','#ececec','#ecf0f1','#dcf7f0'];
       var stars = 250;
 
       for (var i = 0; i <= stars; i++) {
@@ -14,13 +14,13 @@ $(document).ready(function(){
 
       setTimeout(function(){ 
         $('#starsBox span').each(function(){  
-          $(this).css('top', Math.random()*100 + '%').css('left', Math.random()*100 + '%'); 
+          $(this).css('top', Math.random()*100 + '%').css('left', Math.random()*150 + '%'); 
         });
       }, 1);
 
       setInterval(function(){ 
         $('#starsBox span').each(function(){      
-          $(this).css('top', Math.random()*100 + '%').css('left', Math.random()*100 + '%'); 
+          $(this).css('top', Math.random()*100 + '%').css('left', Math.random()*150 + '%'); 
         });
       }, 100000);
 });
