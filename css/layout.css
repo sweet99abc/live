@@ -47,7 +47,7 @@ section{ width: 100%; min-height: 100%; margin: 0 auto; overflow: hidden; }
 #sec2 .w1,#sec2 .w2{ padding: 20px; line-height: 1.8rem; width: 92%; margin: 4%;
   border-radius: 10px; box-shadow: 5px 5px 7px #600b18; }
 #sec2 .w1{ background-color: #ebebeb; color: #333; }
-#sec2 .w2{ padding-bottom: 30px; background-color: #888; color: #fff; }
+#sec2 .w2{ background-color: #888; color: #fff; }
 #sec2 ul{ padding-left: 17px; }
 
 /* sec3 */
@@ -68,11 +68,12 @@ input[type=submit]:hover { background-color: #45a049; }
 #sec4 a{ font-size: 1.4rem; color: #0520b5; display: block; max-width: 550px; width: 100%;
   margin: 50px auto; background: #fff; box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.8);
   padding: 15px 30px; cursor: auto; }
+#sec4 a:nth-of-type(1){ cursor: pointer; }
 #sec4 a:not(.last_a){ background: #fff url(../img/step.png) no-repeat 30px center;
   padding-left: 70px; }
-#sec4 a:nth-of-type(1){ cursor: pointer; }
 #sec4 a:hover{ background-color: #faf4aa; }
 
+/* footer */
 footer{ width: 100%; color: #fff; text-align: center; font-size: 0.95rem; padding: 20px; }
 footer>a { display: block; }
 footer>a:hover { color: #f5ef5b; }
@@ -80,6 +81,9 @@ footer>a:hover { color: #f5ef5b; }
 @media(max-width:424px){
   h1{ font-size: 2.5rem; }
   h1>span{ display: block; }
+}
+@media(min-width:890px){
+  #sec2 .w1,#sec2 .w2{ min-height: 520px; width: 48%; margin: 1%; float: left; padding: 40px 50px; }
 }
 @media(min-width:800px){
   h1{ font-size: 4rem; }
@@ -89,7 +93,6 @@ footer>a:hover { color: #f5ef5b; }
   #sec1 .icon1{ max-width: 120px; }
   .teacher_m{ display: block; }
   .teacher_s{ display: none; }
-  #sec2 .w1,#sec2 .w2{ min-height: 520px; width: 48%; margin: 1%; float: left; padding: 40px 50px; }
   #sec4 a{ font-size: 1.8rem; }
 }
 @media(min-width:1000px){
