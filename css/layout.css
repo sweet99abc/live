@@ -13,29 +13,40 @@ a{ text-decoration: none; }
 
 /*公用設計*/
 .w_content{ max-width: 1200px; padding: 0 20px; margin: 0 auto; }
-.w1300, w1200{ margin: 0 auto; position: relative; overflow: hidden; }
+.w1300, .w1200, .w800{ margin: 0 auto; position: relative; overflow: hidden; }
 .w1300{ max-width: 1300px; }
 .w1200{ max-width: 1200px; }
-.pt8{ padding-top:8px; }
+.w800{ max-width: 800px; }
+.pt8{ padding-top: 8px; }
+.pt16{ padding-top: 16px; }
 .pb8{ padding-bottom: 8px; }
+.pb16{ padding-bottom: 16px; }
+ol, ul{ padding-left: 22px; }
+
 
 /*各section設定*/
 header{ background: #fff url(../img/nav.png) no-repeat center; background-size: contain;
   width: 100%; height: 64px; position: absolute; left: 0; top: 0; z-index: 100; }
-h1,h2,h3,h4{ font-family: "Helvetica Neue", Helvetica, Arial, STHeiti, "Microsoft JhengHei", 微軟正黑體, sans-serif; font-weight: bold; margin: 0; color: #fff; }
+h1,h2,h3,h4,h5,h6{ font-family: "Helvetica Neue", Helvetica, Arial, STHeiti, "Microsoft JhengHei", 微軟正黑體, sans-serif; font-weight: bold; margin: 0; color: #fff; }
 h1{ font-size: 3rem; text-shadow: 3px 3px 6px #000; text-align: center;
   padding-top: 35vh; -ms-transform: translateY(-50vh); -webkit-transform: translateY(-50vh);
   transform: translateY(-50vh); }
 h2{ font-size: 1.65rem; padding: 50px 0 0; }
 h3{ font-size: 1.3rem; padding-bottom: 10px; }
 h4{ font-size: 1.5rem; text-align: center; color: #952233; }
+h5{ font-size: 1.5rem; color: #f4f44f; text-align: left; }
+h6{ font-size: 1.3rem; }
 
 section{ width: 100%; min-height: 100%; margin: 0 auto; overflow: hidden; }
 
 /* sec1 */
-#sec1{ background: url('../img/sec1_bg.jpg') no-repeat center; background-size: cover;
-  padding: 0; height: 100%; }
+#sec1{ background: url('../img/sec1_bg.jpg') no-repeat center;
+  background-size: cover; padding: 0; height: 100%; }
 .icon1{ position: absolute; left: 0; top: 64px; max-width: 100px; }
+#sec1 img{ width: 100%; }
+#sec1 .img_m{ margin: 35vh auto 0; }
+#sec1 .img_t{ display: none; }
+#sec1 .img_m{ display: block; max-width: 500px; }
 
 /*星星*/
 #starsBox { position: absolute; top: 0; left: 0; right: 0; bottom: 0; overflow: hidden; }
@@ -44,11 +55,15 @@ section{ width: 100%; min-height: 100%; margin: 0 auto; overflow: hidden; }
 
 /* sec2 */
 #sec2{ background: #952233; color: #fff; }
-#sec2 .w1,#sec2 .w2{ padding: 20px; line-height: 1.8rem; width: 92%; margin: 4%;
-  border-radius: 10px; box-shadow: 5px 5px 7px #600b18; }
-#sec2 .w1{ background-color: #ebebeb; color: #333; }
-#sec2 .w2{ padding-bottom: 30px; background-color: #888; color: #fff; }
-#sec2 ul{ padding-left: 17px; }
+#sec2 .wdate{ background: #f2c921; color: #952233; font-size: 1.8rem; font-weight: bold;
+  box-shadow: 0 4px 4px #600a16; }
+#sec2 .wdate span{ font-size: 2.2rem; font-style: italic; }
+#sec2 .r1,#sec2 .r2{ border-radius: 10px;
+  margin: 30px auto; padding: 20px; }
+#sec2 p, #sec2 ol, #sec2 li{ font-size: 1.1rem; line-height: 2.2rem; letter-spacing: 1px; }
+#sec2 .r1{ background: rgba(255, 255, 255, 0.3); }
+#sec2 .r2 span{ font-size: 1.1rem; }
+#sec2 .r2-2 img{ width: 200px; }
 
 /* sec3 */
 #sec3{ background: #b6b9ad; }
@@ -68,11 +83,12 @@ input[type=submit]:hover { background-color: #45a049; }
 #sec4 a{ font-size: 1.4rem; color: #0520b5; display: block; max-width: 550px; width: 100%;
   margin: 50px auto; background: #fff; box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.8);
   padding: 15px 30px; cursor: auto; }
+#sec4 a:nth-of-type(1){ cursor: pointer; }
 #sec4 a:not(.last_a){ background: #fff url(../img/step.png) no-repeat 30px center;
   padding-left: 70px; }
-#sec4 a:nth-of-type(1){ cursor: pointer; }
 #sec4 a:hover{ background-color: #faf4aa; }
 
+/* footer */
 footer{ width: 100%; color: #fff; text-align: center; font-size: 0.95rem; padding: 20px; }
 footer>a { display: block; }
 footer>a:hover { color: #f5ef5b; }
@@ -81,17 +97,23 @@ footer>a:hover { color: #f5ef5b; }
   h1{ font-size: 2.5rem; }
   h1>span{ display: block; }
 }
+@media(min-width:600px){
+  #sec1 .img_t{ display: block; max-width: 700px; margin: 25vh auto 0; }
+  #sec1 .img_m{ display: none; }
+}
 @media(min-width:800px){
   h1{ font-size: 4rem; }
   h2{ font-size: 2rem; }
   h3{ font-size: 1.5rem; }
-  section{ padding: 20px; }
   #sec1 .icon1{ max-width: 120px; }
-  .teacher_m{ display: block; }
-  .teacher_s{ display: none; }
-  #sec2 .w1,#sec2 .w2{ min-height: 520px; width: 48%; margin: 1%; float: left; padding: 40px 50px; }
+  #sec2 .r1,#sec2 .r2{ padding: 50px; }
+  #sec2 .r2-1, #sec2 .r2-2{ float: left; }
+  #sec2 .r2-1{ width: 55%; }
+  #sec2 .r2-2{ widows: 43%; margin-right: 2%; }
+  #sec2 .r2-2 img{ width: 280px; }
   #sec4 a{ font-size: 1.8rem; }
 }
 @media(min-width:1000px){
+  #sec1 .img_t{ display: block; max-width: 800px; margin: 18vh auto 0; }
   footer>a { padding: 0 15px; display: inline; }
 }
