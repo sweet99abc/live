@@ -55,6 +55,7 @@ section{ width: 100%; min-height: 100%; margin: 0 auto; overflow: hidden; }
 
 /* sec2 */
 #sec2{ background: #952233; color: #fff; }
+<<<<<<< HEAD
 #sec2 .wdate{ background: #f2c921; color: #952233; font-size: 1.8rem; font-weight: bold;
   box-shadow: 0 4px 4px #600a16; }
 #sec2 .wdate span{ font-size: 2.2rem; font-style: italic; }
@@ -63,6 +64,13 @@ section{ width: 100%; min-height: 100%; margin: 0 auto; overflow: hidden; }
 #sec2 .r1{ background: rgba(255, 255, 255, 0.3); }
 #sec2 .r2 span{ font-size: 1.1rem; }
 #sec2 .r2-2 img{ width: 200px; }
+=======
+#sec2 .w1,#sec2 .w2{ padding: 20px; line-height: 1.8rem; width: 92%; margin: 4%;
+  border-radius: 10px; box-shadow: 5px 5px 7px #600b18; }
+#sec2 .w1{ background-color: #ebebeb; color: #333; }
+#sec2 .w2{ background-color: #888; color: #fff; }
+#sec2 ul{ padding-left: 17px; }
+>>>>>>> 9b1c0529d6b35af60653761b905ac8d5bbc85ede
 
 /* sec3 */
 #sec3{ background: #b6b9ad; }
@@ -100,6 +108,9 @@ footer>a:hover { color: #f5ef5b; }
   #sec1 .img_t{ display: block; max-width: 700px; margin: 25vh auto 0; }
   #sec1 .img_m{ display: none; }
 }
+@media(min-width:890px){
+  #sec2 .w1,#sec2 .w2{ min-height: 520px; width: 48%; margin: 1%; float: left; padding: 40px 50px; }
+}
 @media(min-width:800px){
   h1{ font-size: 4rem; }
   h2{ font-size: 2rem; }
@@ -110,6 +121,8 @@ footer>a:hover { color: #f5ef5b; }
   #sec2 .r2-1{ width: 55%; }
   #sec2 .r2-2{ widows: 43%; margin-right: 2%; }
   #sec2 .r2-2 img{ width: 280px; }
+  .teacher_m{ display: block; }
+  .teacher_s{ display: none; }
   #sec4 a{ font-size: 1.8rem; }
 }
 @media(min-width:1000px){
