@@ -55,7 +55,6 @@ section{ width: 100%; min-height: 100%; margin: 0 auto; overflow: hidden; }
 
 /* sec2 */
 #sec2{ background: #952233; color: #fff; }
-<<<<<<< HEAD
 #sec2 .wdate{ background: #f2c921; color: #952233; font-size: 1.8rem; font-weight: bold;
   box-shadow: 0 4px 4px #600a16; }
 #sec2 .wdate span{ font-size: 2.2rem; font-style: italic; }
@@ -64,13 +63,11 @@ section{ width: 100%; min-height: 100%; margin: 0 auto; overflow: hidden; }
 #sec2 .r1{ background: rgba(255, 255, 255, 0.3); }
 #sec2 .r2 span{ font-size: 1.1rem; }
 #sec2 .r2-2 img{ width: 200px; }
-=======
 #sec2 .w1,#sec2 .w2{ padding: 20px; line-height: 1.8rem; width: 92%; margin: 4%;
   border-radius: 10px; box-shadow: 5px 5px 7px #600b18; }
 #sec2 .w1{ background-color: #ebebeb; color: #333; }
 #sec2 .w2{ background-color: #888; color: #fff; }
 #sec2 ul{ padding-left: 17px; }
->>>>>>> 9b1c0529d6b35af60653761b905ac8d5bbc85ede
 
 /* sec3 */
 #sec3{ background: #b6b9ad; }
