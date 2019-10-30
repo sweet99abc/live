@@ -58,7 +58,7 @@ section{ width: 100%; min-height: 100%; margin: 0 auto; overflow: hidden; }
 #sec2 .wdate{ background: #f2c921; color: #952233; font-size: 1.8rem; font-weight: bold;
   box-shadow: 0 4px 4px #600a16; }
 #sec2 .wdate span{ font-size: 2.2rem; font-style: italic; }
-#sec2 .r1,#sec2 .r2{ border-radius: 10px; margin: 30px auto; padding: 20px; }
+#sec2 .r1,#sec2 .r2{ border-radius: 10px; margin: 30px auto; padding: 20px; width: 95%; }
 #sec2 p, #sec2 ol, #sec2 li{ font-size: 1.1rem; line-height: 2.2rem; letter-spacing: 1px; }
 #sec2 .r1{ background: rgba(255, 255, 255, 0.3); }
 #sec2 .r2 span{ font-size: 1.1rem; }
