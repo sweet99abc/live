@@ -50,20 +50,17 @@ h6{ font-size: 1.3rem; }
 #sec1 img{ width: 100%; }
 #sec1 .img_m{ margin: 35vh auto 0; }
 #sec1 .img_t{ display: none; }
-#sec1 .img_m{ display: block; max-width: 500px; }
+#sec1 .img_m{ display: block; max-width: 700px; }
 
 /*星星*/
 #starsBox { position: absolute; top: 0; left: 0; right: 0; bottom: 0; overflow: hidden; }
 #starsBox span { display: inline-block; width: auto; position: absolute; 
   border-radius: 50%; transition: 100s linear; }
 
-
-/* 時間 */
+/* sec2 */
 .sec2{ background: #f2c921; color: #952233; font-size: 1.2rem; font-weight: bold;
   box-shadow: 0 4px 4px #600a16; padding: 15px 0; }
 .sec2 span{ font-size: 2.2rem; font-style: italic; }
-
-/* sec2 */
 #sec2a,#sec2b,#sec2c{ overflow: hidden; width: 100%; padding: 5%; 
   line-height: 2.2rem; letter-spacing: 1px; }
 #sec2a{ background: #eae8e8; color: #082472; }
