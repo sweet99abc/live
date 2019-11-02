@@ -64,7 +64,8 @@ h6{ font-size: 1.3rem; }
 .sec2 span{ font-size: 2.2rem; font-style: italic; }
 
 /* sec2 */
-#sec2a,#sec2b,#sec2c{ overflow: hidden; width: 100%; padding: 5%; }
+#sec2a,#sec2b,#sec2c{ overflow: hidden; width: 100%; padding: 5%; 
+  line-height: 2.2rem; letter-spacing: 1px; }
 #sec2a{ background: #eae8e8; color: #082472; }
 #sec2b{ background: #437bb4; color: #f4f2f2; }
 #sec2c{ background: #f8e8b1; color: #fff; }
@@ -72,7 +73,7 @@ h6{ font-size: 1.3rem; }
 #sec2b .pp::before{ content:''; width: 0; height: 100%; display: inline-block; 
   vertical-align: middle; }
 .rrr{ margin: auto; }
-.rrr p, .rrr ol, .rrr li{ font-size: 1.1rem; line-height: 2.2rem; letter-spacing: 1px; }
+.rrr p, .rrr ol, .rrr li{ font-size: 1.1rem; }
 .rrr ul{ padding-left: 17px; }
 .rrr span{ font-size: 1.1rem; }
 
@@ -104,7 +105,6 @@ footer{ width: 100%; color: #fff; text-align: center; font-size: 0.95rem; paddin
 footer>a { display: block; }
 footer>a:hover { color: #f5ef5b; }
 
-
 @media(max-width:424px){
   h1{ font-size: 2.5rem; }
   h1>span{ display: block; }
@@ -120,9 +120,7 @@ footer>a:hover { color: #f5ef5b; }
   #sec1 .icon1{ max-width: 120px; }
   #sec2a,#sec2b,#sec2c{ overflow: hidden; padding: 25px 20px; width: auto; }
   #sec2b img,#sec2c img{ max-width: 300px; }
-  #sec2b .rrr,#sec2c .rrr{ float: left; width: 48%; margin: 1%; }
-  .teacher_m{ display: block; }
-  .teacher_s{ display: none; }
+  .rrr{ float: left; width: 48%; margin: 1%; }
   #sec4 a{ font-size: 1.8rem; }
 }
 @media(min-width:1000px){
