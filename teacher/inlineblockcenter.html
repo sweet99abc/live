@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 960px;
+            margin: auto;
+            font-size: 0;
+        }
+        .box {
+            width: 50%;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .text {
+            width: 50%;
+            display: inline-block;
+            font-size: 16px;
+            vertical-align: middle;
+        }
+        [class^="qq"]{
+            display: inline-block;
+            width: 100px;
+            vertical-align: middle;
+            font-size: 16px;
+        }
+        .qq {
+            height: 200px;
+            background: #123;
+
+        }
+        .qq1 {
+            height: 100px;
+            background: #fa0;
+
+        }
+        .qq2 {
+            height: 300px;
+            background: #e04;
+
+        }
+        .q {
+            width: 100%;
+            height: 400px;
+            background: #ccc;
+            text-align: center;
+            font-size: 0;
+        }
+        .q::before {
+            content:"";
+            display: inline-block;
+            vertical-align: middle;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="https://picsum.photos/400" alt="">
+        </div>
+        <div class="text">
+            <h2>title</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, architecto!
+            </p>
+        </div>
+    </div>
+    <div class="q">
+        <div class="qq">123</div>
+        <div class="qq1">123</div>
+        <div class="qq2">123</div>
+    </div>
+</body>
+</html>
