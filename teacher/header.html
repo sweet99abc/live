@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            border: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            width: 100%;
+            background: url("bg.jpg")no-repeat center center;
+            background-size: cover;
+            /* background-image: linear-gradient(#a30101,#610000) */
+        }
+
+        .wrapper {
+            margin: auto;
+            height: 300px;
+            position: relative;
+        }
+
+        .board {
+            width: 60%;
+            position: absolute;
+            left: 20%;
+            top: 15%;
+            transform:rotate(-5deg);
+        }
+
+        .blackboard {
+            width: 20%;
+            position: absolute;
+            top: 40%;
+            left: 12%;
+        }
+
+        .camera {
+            width: 40%;
+            position: absolute;
+            top: 35%;
+            right: 12%;
+        }
+
+        @media (min-width: 768px) {
+            .wrapper {
+                width: 768px;
+                height: 400px;
+            }
+
+            .board {
+                width: 60%;
+                left: 20%;
+                top: 15%;
+            }
+
+            .blackboard {
+                width: 20%;
+                top: 40%;
+                left: 12%;
+            }
+
+            .camera {
+                width: 40%;
+                top: 35%;
+                right: 12%;
+            }
+        }
+
+        @media (min-width: 960px) {
+            .wrapper {
+                width: 960px;
+                height: 480px;
+            }
+
+            .board {
+                width: 60%;
+                left: 20%;
+                top: 15%;
+            }
+
+            .blackboard {
+                width: 20%;
+                top: 40%;
+                left: 12%;
+            }
+
+            .camera {
+                width: 40%;
+                top: 35%;
+                right: 12%;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .wrapper {
+                width: 1200px;
+                height: 600px;
+            }
+
+            .board {
+                width: 60%;
+                left: 20%;
+                top: 15%;
+            }
+
+            .blackboard {
+                width: 20%;
+                top: 50%;
+                left: 12%;
+            }
+
+            .camera {
+                width: 40%;
+                top: 45%;
+                right: 12%;
+            }
+        }
+
+        img {
+            width: 100%;
+            vertical-align: top;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="board">
+                <img src="images/borad.png" alt="">
+            </div>
+            <div class="camera">
+                <img src="images/cmara.png" alt="">
+            </div>
+            <div class="blackboard">
+                <img src="images/blackboard.png" alt="">
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
