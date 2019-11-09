@@ -78,12 +78,10 @@ h6{ font-size: 1.3rem; }
 
 /* sec3 */
 #sec3{ background: #b6b9ad; border-radius: 5px; padding: 30px 5px; }
-#sec3 form{ border: 1px solid #fff; border-radius: 10px; padding: 20px;
+#sec3 form{ border: 1px solid #fff; border-radius: 10px; padding: 20px; font-size: 16px;
   background: #d6d3d3; box-shadow: 0px 0px 7px 5px rgba(255, 255, 255, 0.5); }
-input[type=text], select { width: 100%; padding: 10px; margin: 8px 0; display: inline-block;
-  border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
-input[type=submit] { width: 100%; background-color: #4CAF50; color: white; padding: 14px 20px;
-  margin: 8px 0; border: none; border-radius: 4px; cursor: pointer; }
+input[type=text], select { width: 100%; padding: 10px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; color: #666; }
+input[type=submit] { width: 100%; background-color: #4CAF50; color: white; padding: 14px 20px; margin: 8px 0; border: none; border-radius: 4px; cursor: pointer; }
 input[type=submit]:hover { background-color: #45a049; }
 ::-webkit-input-placeholder { font-size: 16px; }
 ::-moz-placeholder { font-size: 16px; }
@@ -123,7 +121,9 @@ footer>a:hover { color: #f5ef5b; }
   #sec2a,#sec2b,#sec2c{ overflow: hidden; padding: 50px 20px; width: auto; }
   #sec2b img{ width: 48%; }
   #sec2c img{ max-width: 300px; }
-  .rrr{ float: left; width: 46%; margin: 2%; }
+  .rrr{ float: left; width: 48%; margin: 1%; }
+  #CITY{ padding-right: 5px; }
+  #SCHOOL { padding-left: 5px; }
   #sec4 a{ font-size: 1.8rem; }
 }
 @media(min-width:1000px){
