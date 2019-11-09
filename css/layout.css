@@ -72,10 +72,6 @@ h6{ font-size: 1.3rem; }
 #sec2b{ background: #437bb4; color: #f4f2f2; }
 #sec2c{ background: #f8e8b1; color: #fff; }
 #sec2b img,#sec2c img{ width: 90%; display: block; margin: auto; }
-/*
-#sec2b .pp::before{ content:''; width: 0; height: 100%; display: inline-block; 
-vertical-align: middle; }
-*/
 .rrr{ margin: auto; }
 .rrr p, .rrr ol, .rrr li{ font-size: 1.2rem; }
 .rrr span{ font-size: 1.1rem; }
@@ -124,7 +120,7 @@ footer>a:hover { color: #f5ef5b; }
   h2{ font-size: 2rem; }
   h3{ font-size: 1.5rem; }
   #sec1 .icon1{ max-width: 120px; }
-  #sec2a,#sec2b,#sec2c{ overflow: hidden; padding: 25px 20px; width: auto; }
+  #sec2a,#sec2b,#sec2c{ overflow: hidden; padding: 50px 20px; width: auto; }
   #sec2b img{ width: 48%; }
   #sec2c img{ max-width: 300px; }
   .rrr{ float: left; width: 46%; margin: 2%; }
